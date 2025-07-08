@@ -41,4 +41,4 @@ if st.button('Predict'):
         st.subheader(f"Predicted pollutant levels for the station '{station_id}' in {year_input}:")
         predicted_values = {}
         for p, val in zip(pollutants, predicted_pollutants):
-            st.write(f'{p}:{val:.2f}')
+             st.write(f'{p}:{val:.2f}')
